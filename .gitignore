@@ -1,0 +1,8 @@
+# CircuitPython固有のファイルを除外
+boot_out.txt
+settings.toml
+.DS_Store # Macの場合
+.vscode/ # VSCodeの設定ファイルを除外したい場合
+
+# ライブラリフォルダの扱いについて
+lib/
